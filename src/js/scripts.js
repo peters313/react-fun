@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 class Layout extends React.Component {
   render() {
     return(
-      <h1>React Fun!</h1>
+      <h1 style={{color:"red"}}>React Fun!</h1>
     )
   }
 }
