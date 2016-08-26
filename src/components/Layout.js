@@ -4,14 +4,14 @@ import Footer from "./Footer";
 export default class Layout extends React.Component {
   constructor() {
     super();
-    this.state = {
-      title: "Welcome",
-    };
+    // this.state = {
+    //   title: "Welcome",
+    // };
   }
 
-  changeTitle(title) {
-    this.setState({title});
-  }
+  // changeTitle(title) {
+  //   this.setState({title});
+  // }
 
   render() {
     return (
