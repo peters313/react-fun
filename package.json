@@ -4,6 +4,7 @@
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
+    "dev": "./node_modules/.bin/webpack-dev-server --content-base src --inline --hot",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -19,11 +20,8 @@
     "babel-preset-stage-0": "^6.3.13",
     "react": "^0.14.6",
     "react-dom": "^0.14.6",
+    "react-router": "^2.7.0",
     "webpack": "^1.13.2",
     "webpack-dev-server": "^1.14.1"
-  },
-  "scripts": {
-  "dev": "./node_modules/.bin/webpack-dev-server --content-base src --inline --hot",
-  "test": "echo \"Error: no test specified\" && exit 1"
-}
+  }
 }
