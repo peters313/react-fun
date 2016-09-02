@@ -4,7 +4,7 @@ import { Router, Route, IndexRoute, hashHistory } from "react-router";
 import Layout from "./components/Layout";
 import Featured from "./pages/Featured";
 import Archives from "./pages/Archives";
-import Setting from "./pages/Settings";
+import Settings from "./pages/Settings";
 
 const app = document.getElementById('app');
 
