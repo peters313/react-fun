@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 export default class Archives extends React.Component {
   render(){
     return(
-      <div>Archives file</div>
+      <div>Archives File!</div>
     )
   }
 }

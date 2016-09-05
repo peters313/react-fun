@@ -6,7 +6,7 @@ export default class Layout extends React.Component {
   constructor() {
     super();
     this.state = {
-      title: "Entry Point",
+      title: "React",
     };
   }
 
