@@ -8,9 +8,5 @@ export default class Header extends React.Component {
     const title = e.target.value;
     this.props.changeTitle(title);
   }
-
-  render() {
-    return (
-    );
-  }
+}
 }
